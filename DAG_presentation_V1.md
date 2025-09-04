@@ -1,13 +1,13 @@
 <!--
-author: AI in TVET Workshop Team
-email: 
+author: Hannes Tegelbeckers
+email: hannes.tegelbeckers@ovgu.de
 version: 1.0.0
 language: en
 narrator: US English Female
 comment: Interactive 90-minute workshop on AI applications in TVET education for Sri Lankan teachers
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1915px-Tensorflow_logo.svg.png
 
-link: link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_UNESCO/refs/heads/main/Vorlage.css
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_UNESCO/refs/heads/main/Vorlage.css
 
 @style
 .sector-card {
@@ -64,14 +64,14 @@ link: link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_
 </script>
 @end
 
-@aiDemo: <div class="ai-tool-demo">**AI Demo:** @0<br>**Tool:** @1<br>**Try it:** [Click here](@2)</div>
+@aiDemo: <div class="ai-tool-demo">**🤖 AI Demo:** @0<br>**🛠️ Tool:** @1<br>**🔗 Try it:** [Click here](@2)</div>
 
 @sectorCard: <div class="sector-card">**@0**<br>@1</div>
 
 @resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a>
 
 -->
-
+# .
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
 <!-- Background -->
@@ -120,198 +120,304 @@ Digital Skills to Succeed in Asia (DS2S) Project | Commissioned by BMZ
 
 <!-- License info -->
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; opacity: 0.7;">
-  <img src="media/CC_BY-SA_icon.png" alt="CC BY-SA" style="height: 20px; vertical-align: middle;">
+  <img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" alt="CC BY-SA" style="height: 20px; vertical-align: middle;">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="margin-left: 5px; text-decoration: none;">CC BY-SA 4.0</a>
 </div>
 
-# Cours Goal
-- Outlining the context and a possible framework for the use of Ai in  Open Educational Ressources
-- Update or double check you AI tool box
-- Use a text based approache (Mark Down) to create teaching and learning material
+---
 
 
-## what is AI
+# 🎯 Course Goals
 
-- there is no current defintion
-- currently we are talking mainly about probablitiy machines
-- Nature of knowldege production - gen AI is the past (it learned from the past and mainly presents that to us)
+📌 **Learning Objectives:**
 
-Human factor:
-- we attribute understanding or consciouse to generated text which is not there
+- Outline the context and framework for AI use in Open Educational Resources
+- Update and expand your AI toolbox with practical applications
+- Master text-based approaches (Markdown) for creating teaching and learning materials
+- Experience hands-on creation with LiaScript and AI integration
 
-Core question: 
-- what do we want to automate
-
-**Examples:**
-- AI Excells in sepcific tasks 
- - Spotting Cancer, quality of crops, quality of welding
- - {{further examples}}
-
-## Open Edcuational Resources
-
-Defintion and Scope (2019)
-An **Open Educational Resource (OER)** is defined in the Dubai Declaration as learning, teaching, and research materials in any format and medium that reside in the public domain or under copyright but have been released under an open license, permitting no-cost access, reuse, repurpose, adaptation, and redistribution by others. OER includes textbooks, multimedia, course materials, and other resources that prioritize inclusivity, equity, and collaboration in education, often supported by emerging technologies such as AI for better accessibility and adaptability.[^3][^4][^2][^1]
-
-An **open license** refers to a legal tool that allows creators to maintain ownership of their work while also specifying the terms under which others may freely use, reuse, adapt, and redistribute the material. Open licenses are designed to facilitate sharing and collaboration, ensure proper attribution, and enable scalable, flexible access to educational resources. They are central to the OER ecosystem and must now be updated to clarify how content may be used—including use as training data for AI models—and how attribution and compatibility should be ensured for all derivative works created using emerging technologies.[
-
-Lubliana Declaration
-!?[UNESCO OER Lubliana Recommendation](https://)
+---
 
 
-The UNESCO 2019 Recommendation in OER (Open Education Resources)
-!?[UNESCO OER Recommendation](https://)
-- every 4 years governments have to decalre what they have done
+## 🤖 What is AI?
 
-Introducing the Dubai Declaration
-- provide link 
-!?[Dubai Declaration](https://)
+🔍 **Current Reality:**
 
-> **Open Source AI System**
+- No universally accepted definition exists
+- We're primarily discussing **probability machines**
+- AI learns from past data and presents historical patterns
 
-- Freedoms (Use, Study , Modify, Share)
-- Open Weights (Model Wigths and parameters)
-- Open Code (all source code, source code to tain the system, source code used to create the dataset)
-- Data (The compele list of data used to train the system and the actual dataset when allowed)
+🧠 **Human Factor:**
 
-!?[Open AI System Defintion](https://opensource.org/ai/open.ksource.ai-defintion)
+- We attribute understanding or consciousness to generated text where none exists
+- Critical consideration: What processes do we actually want to automate?
 
-## Orientation: UNESCO AI Framework for Teachers
+### 🎯 AI Excellence Examples
+
+✅ AI excels in specific tasks:
+- 🏥 Spotting cancer in medical imaging
+- 🌾 Assessing crop quality in agriculture
+- 🔧 Quality control in welding processes
+- 🚗 Autonomous vehicle navigation
+- 📊 Financial fraud detection
+- 🎵 Music composition and analysis
+
+---
 
 
-| Competency | Acquire | Deepen | Create |
+## 📚 Open Educational Resources (OER)
+
+### 🌍 Definition and Scope (2019)
+
+**Open Educational Resource (OER)** 
+
+- *Dubai Declaration*:
+> Learning, teaching, and research materials in any format and medium that reside in the public domain or under copyright but have been released under an **open license**, permitting no-cost access, reuse, repurpose, adaptation, and redistribution by others.
+
+🎯 **Key Features:**
+
+- 📖 Includes textbooks, multimedia, course materials
+- 🤝 Prioritizes inclusivity, equity, and collaboration
+- 🤖 Enhanced by AI for better accessibility and adaptability
+
+### 🔑 Open License Framework
+
+**Open License** = Legal tool enabling:
+
+- ✅ Maintain creator ownership
+- ✅ Specify usage terms for others
+- ✅ Enable free use, reuse, adaptation, and redistribution
+- ✅ Ensure proper attribution
+- ⚖️ **New Challenge:** Clarify AI training data usage rights
+
+### 📋 Key OER Declarations
+
+🔗 **Ljubljana Declaration:**
+[UNESCO OER Ljubljana Recommendation](https://www.unesco.org/en/legal-affairs/oer-recommendation)
+
+🔗 **UNESCO 2019 Recommendation:**
+[UNESCO OER Recommendation](https://unesdoc.unesco.org/ark:/48223/pf0000373755)
+*Note: Governments report implementation every 4 years*
+
+🔗 **Dubai Declaration:**
+[Dubai OER Declaration](https://www.unesco.org/en/articles/dubai-declaration-open-educational-resources)
+
+### 🔓 Open Source AI Systems
+
+**Four Essential Freedoms:**
+
+1. **Use** - Deploy for any purpose
+2. **Study** - Examine how it works
+3. **Modify** - Adapt to your needs
+4. **Share** - Distribute improvements
+
+**Technical Requirements:**
+
+- 🏋️ **Open Weights** - Model weights and parameters
+- 💻 **Open Code** - Training source code and dataset creation code
+- 📊 **Open Data** - Complete training data list (when legally permitted)
+
+🔗 [Open Source AI Definition](https://opensource.org/ai/open-source-ai-definition)
+
+---
+
+
+## 🧑‍🏫 UNESCO AI Framework for Teachers
+
+| Competency | 📖 Acquire | 🔍 Deepen | 🚀 Create |
 |------------|---------|--------|--------|
-| **Human-centred Mindset** | @normalCell(Critically reflect on benefits, limitations and risks of AI tools in local educational settings) | @normalCell(Apply human-centered principles in AI tool selection) | @normalCell(Design AI-enhanced learning experiences prioritizing human agency) |
-| **Ethics of AI** | @normalCell(Understand basic AI ethical principles) | @normalCell(Analyze ethical implications of AI in education) | @normalCell(Develop ethical guidelines for AI use in teaching) |
-| **AI Foundations & Applications** | @normalCell(Learn basic AI concepts and educational tools) | @normalCell(Integrate AI tools into teaching practice) | @normalCell(Create innovative AI-enhanced learning solutions) |
-| **AI Pedagogy** | @normalCell(Understand AI's role in pedagogy) | @normalCell(Adapt teaching methods with AI support) | @normalCell(Design AI-integrated pedagogical approaches) |
-| **AI for Professional Learning** | @normalCell(Use AI for personal professional development) | @normalCell(Collaborate with AI for continuous learning) | @normalCell(Lead professional development in AI literacy) |
+| **🧠 Human-centered Mindset** | Critically reflect on AI benefits, limitations and risks in local settings | Apply human-centered principles in AI tool selection | Design AI-enhanced experiences prioritizing human agency |
+| **⚖️ Ethics of AI** | Understand basic AI ethical principles | Analyze ethical implications of AI in education | Develop ethical guidelines for AI use in teaching |
+| **🔧 AI Foundations & Applications** | Learn basic AI concepts and educational tools | Integrate AI tools into teaching practice | Create innovative AI-enhanced learning solutions |
+| **🎓 AI Pedagogy** | Understand AI's role in pedagogy | Adapt teaching methods with AI support | Design AI-integrated pedagogical approaches |
+| **📈 AI for Professional Learning** | Use AI for personal professional development | Collaborate with AI for continuous learning | Lead professional development in AI literacy |
 
-> Check out the framework: [UENSCO AI Framework for Teachers 2024](https://)
-
-
-
-## Why Lias Script
-
-- e.g. Why LiaScript - text based, easy to generate, easy to render, share and adapt (e.g. translate)
-- dynamic options vs. static presentation choices
+🔗 [UNESCO AI Competency Framework for Teachers 2024](https://www.unesco.org/en/digital-education/ai-future-learning)
 
 
-**For your consideration on text based material**
-
-- What is you data strategy
-- how does your datastrategy will influence decisions regarding platforms and systems
-- how does your datastrategy will influence future integration into digital ecosystems, set ups for learning and teaching tools (Intellgient Tutorting Systems, LMS implementation, personalised learning) and industry developments regarding changing skill proficiency and competencies)
-
-## AI Examples
-
-> **LLM**
-- [Perplexity Ai](https:)
-- [Claude AI](https:)
-- [Copilot](https:)
-- [ChatGPT](https:)
-
-> **Presentations and Other**
-- [grammer.app](https:)
-- [napking AI](https:)
-- [lmnotebook](https:)
 
 
-> **Local Model implementation GUI**
-- [GPT4all](https:)
-- [Ollama](https:)
-- [LM](https:)
-- [Hugging Face]
+## 💡 Why LiaScript?
 
-> **Local Model Implementation CLI**
-- [Ollama](https:)
+**🎯 Text-Based Advantages**
 
+- **📝 Simple Creation** - Easy to generate, edit, and share
+- **🔄 Dynamic Rendering** - Interactive vs. static presentations
+- **🌐 Translation Ready** - Text-based content is easily translatable
+- **🔗 Platform Independent** - Works anywhere Markdown is supported
 
-> **Avatar Generation**
-- [HeyGen Ai](https:)
+### 🤔 Strategic Considerations
 
-# Refresh: Prompting
-- What is a prompt
-- Different ways to prompt
-- 
+**Your Data Strategy Questions:**
 
-# Hands on
-
-> **Generate your own Selflearning Tool for a specific topic**
-- define your goal and learning objective
-- define methods
-- define interactive tools
-
-- choose an LLM and communicate those decisions
-- create a LiaSCript selflearning tool for your objective
-- copy your output code into: [Liascript Live Editor](https://liascript.github.io/LiveEditor/?)
-
-> usable prompting option: 5 step frame(by google)
-
-- **Task:** What the AI shall do!
-- **Context:** Background information and details relevant to the task.
-- **References:** Any external sources or materials to consider.
-- **Evaluate:** Criteria for assessing the output.
-- **Iterate:** Process for refining the prompt based on feedback.
-
-# Prompt refinement
-
-> **work with a template:** 
-example: [Example Template](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Self_Learning_Nugget_Outlinefile_V6.md)
-
-> use a megaprompt
-example: [Example Prompt](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Prompt_Feedback_V2.md)
+- 📊 What is your data strategy?
+- 🏗️ How will it influence platform and system decisions?
+- 🔮 How will it affect future digital ecosystem integration?
+- 🎯 How will it support Learning Management Systems (LMS) implementation?
+- 🤖 How will it enable Intelligent Tutoring Systems and personalized learning?
+- 🏭 How will it adapt to changing industry skill requirements?
 
 
-Other techniwues:
-> **Chain of Thought (CoT)**
+## 🛠️ AI Tool Examples
 
-Chain of Thought prompting is a technique that encourages the AI to break down complex tasks into smaller, manageable steps. This approach helps the AI to reason through the problem and arrive at a more accurate solution.
+### 💬 Large Language Models (LLMs)
 
-> **Tree of Thought (ToT)**
+@aiDemo(Advanced conversational AI for research and analysis, Perplexity AI, https://perplexity.ai)
 
-Tree of Thought prompting is a more advanced version of Chain of Thought prompting. It allows the AI to explore multiple branches of reasoning simultaneously, leading to more comprehensive and nuanced outputs.
+@aiDemo(Sophisticated reasoning and text generation, Claude AI, https://claude.ai)
+
+@aiDemo(Microsoft's AI assistant with web integration, Copilot, https://copilot.microsoft.com)
+
+@aiDemo(OpenAI's flagship conversational AI, ChatGPT, https://chat.openai.com)
+
+### 🎨 Presentations and Creative Tools
+
+@aiDemo(Grammar and writing enhancement, Grammarly, https://grammarly.com)
+
+@aiDemo(Visual presentation creation with AI, Napkin AI, https://napkin.ai)
+
+@aiDemo(Interactive notebook for AI experiments, LM Notebook, https://lmnotebook.com)
+
+### 💻 Local AI Implementation
+
+**GUI-Based Solutions:**
+
+@resourceLink(GPT4ALL, https://gpt4all.io)
+@resourceLink(Ollama GUI, https://ollama.ai)
+@resourceLink(Hugging Face Spaces, https://huggingface.co/spaces)
+
+**Command Line Solutions:**
+@resourceLink(Ollama CLI, https://ollama.ai)
+
+### 🎭 Avatar Generation
+
+@aiDemo(AI-powered video avatar creation, HeyGen AI, https://heygen.com)
+
+---
+
+--{{6}}--
+## 📝 Refresh: Prompting Essentials
+
+### 🤔 What is a Prompt?
+A prompt is your instruction or query to an AI system - the input that guides the AI's response.
+
+### 🎯 Google's 5-Step Framework
+
+**Effective Prompting Structure:**
+
+1. **📋 Task:** Clearly define what the AI should do
+2. **🌍 Context:** Provide background information and relevant details
+3. **📚 References:** Include external sources or materials to consider
+4. **✅ Evaluate:** Set criteria for assessing the output quality
+5. **🔄 Iterate:** Process for refining based on feedback
+
+### 🧠 Advanced Techniques
+
+**🔗 Chain of Thought (CoT):**
+Encourage step-by-step reasoning through complex problems.
+
+**🌳 Tree of Thought (ToT):**
+Enable exploration of multiple reasoning branches simultaneously for comprehensive analysis.
 
 
-> **If there is time: ** check out KI Campus for more prompt options
-[KI Campus](https://)
+## 🛠️ Hands-On Workshop
 
-**Other promptsupport: **
-https://ai-27.com
+### 🎯 Create Your Self-Learning Tool
 
-**Libraries**
+**Step-by-Step Process:**
 
-[AI for Education]()
-[Microsoft Prompts for Education]()
-[UNIGlobal Careers Prompt Library]()
+1. **🎯 Define Goals:** Set clear learning objectives
+2. **📋 Choose Methods:** Select appropriate teaching approaches  
+3. **🔧 Select Tools:** Pick interactive elements and features
+4. **🤖 Choose LLM:** Select and justify your AI tool choice
+5. **💻 Build in LiaScript:** Create your self-learning resource
+6. **🚀 Test & Deploy:** Use [LiaScript Live Editor](https://liascript.github.io/LiveEditor/)
 
-> check the extended presentation for AI content generation: [AI content Generation](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/content-creation-with-ai/refs/heads/main/README.md)
+### 📝 Template Resources
 
+🔗 **Starting Template:** [Self-Learning Template](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Self_Learning_Nugget_Outlinefile_V6.md)
 
-# Discussion and Feedback
-
-- How satisfied are you with the content considering the time you spent
-- what went alright
-- what went wrong
-- where do you see options to improve
+🔗 **Mega-Prompt Example:** [Advanced Prompting Guide](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Prompt_Feedback_V2.md)
 
 
-## UNESCO Digital Learning Week – Resources 📘
+## 🔧 Prompt Refinement Techniques
 
-- [AI and education: guidance for policy-makers](https://www.unesco.org/en/weeks/digital-learning)
-- [Beijing Consensus on Artificial Intelligence and Education](https://www.unesco.org/en/weeks/digital-learning)
-- [Recommendation on the Ethics of Artificial Intelligence](https://www.unesco.org/en/weeks/digital-learning)
-- [Guidelines for ICT in education policies and masterplans](https://www.unesco.org/en/weeks/digital-learning)
-- [Education and blockchain](https://www.unesco.org/en/weeks/digital-learning)
-- [Gateways to Public Digital Learning](https://www.unesco.org/en/weeks/digital-learning)
-- [Innovative use of technology in education: winning projects of UNESCO’s King Hamad Bin Isa Al-Khalifa Prize](https://www.unesco.org/en/weeks/digital-learning)
-- [Artificial Intelligence and Inclusion, Compendium of Promising Initiatives: Mobile Learning Week 2020](https://www.unesco.org/en/weeks/digital-learning)
-- [Artificial intelligence in Education, Compendium of Promising Initiatives: Mobile Learning Week 2019](https://www.unesco.org/en/weeks/digital-learning)
-- [Beyond disruption: technology enabled learning futures; 2020 edition of Mobile Learning Week, 12-14 October 2020: report](https://www.unesco.org/en/weeks/digital-learning)
-- [Artificial intelligence for Sustainable Development: synthesis report, Mobile Learning Week 2019](https://www.unesco.org/en/weeks/digital-learning)
+### 📚 Additional Resources
 
-> **Teacher Specifics:**
+🔗 **KI Campus:** [AI Prompting Course](https://ki-campus.org)
+🔗 **AI-27 Prompt Support:** [Prompting Tools](https://ai-27.com)
 
-- [International Task Force on Teachers for Education 2030: Promoting and protecting teacher agency in the age of artificial intelligence 2025](https://teachertaskforce.org/knowledge-hub/promoting-and-protecting-teacher-agency-age-artificial-intelligence)
+### 📖 Prompt Libraries
 
-> **OECD tools**
-- [OECD AI Tools] (https://oecd.ai/en/catalogue/overview)
+@resourceLink(AI for Education Library, https://www.aiforeducation.io)
+@resourceLink(Microsoft Education Prompts, https://education.microsoft.com/en-us/resource/9c8f)
+@resourceLink(UNIGlobal Careers Prompts, https://www.uniglobalcareers.com/ai-prompts)
+
+### 🎥 Extended Learning
+
+🔗 **Comprehensive Guide:** [AI Content Generation with LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/content-creation-with-ai/refs/heads/main/README.md)
+
+
+## 💬 Discussion and Feedback
+
+### 🤔 Reflection Questions
+
+**📊 Satisfaction Assessment:**
+
+- How satisfied are you with the content considering the time invested?
+- What aspects worked well for your learning?
+- Which areas need improvement?
+- Where do you see opportunities for enhancement?
+
+### 🚀 Future Applications
+
+**🎯 Consider:**
+
+- How will you implement these tools in your teaching?
+- What additional support do you need?
+- Which concepts require further exploration?
+
+---
+
+--{{10}}--
+## 📚 UNESCO Digital Learning Resources
+
+### 🎓 Policy and Guidance Documents
+
+@resourceLink(AI and Education: Guidance for Policy-makers, https://www.unesco.org/en/articles/artificial-intelligence-education-guidance-policy-makers)
+
+@resourceLink(Beijing Consensus on AI and Education, https://www.unesco.org/en/articles/beijing-consensus-artificial-intelligence-and-education)
+
+@resourceLink(UNESCO Ethics of AI Recommendation, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+
+@resourceLink(ICT in Education Policy Guidelines, https://www.unesco.org/en/education/digital-transformation/guidelines-policy)
+
+### 🔗 Specialized Resources
+
+@resourceLink(Education and Blockchain, https://www.unesco.org/en/articles/blockchain-education)
+
+@resourceLink(Gateways to Public Digital Learning, https://www.unesco.org/en/education/digital-transformation/gateways)
+
+@resourceLink(King Hamad Prize Winners, https://www.unesco.org/en/prizes-fellowships/hamad-bin-isa-al-khalifa)
+
+### 📊 Research Compendiums
+
+@resourceLink(AI and Inclusion Initiatives 2020, https://www.unesco.org/en/weeks/digital-learning/2020/compendium)
+
+@resourceLink(AI in Education Initiatives 2019, https://www.unesco.org/en/weeks/digital-learning/2019/compendium)
+
+@resourceLink(Beyond Disruption Report 2020, https://www.unesco.org/en/weeks/digital-learning/2020/report)
+
+### 👨‍🏫 Teacher-Specific Resources
+
+@resourceLink(Teacher Agency in AI Age 2025, https://teachertaskforce.org/knowledge-hub/promoting-and-protecting-teacher-agency-age-artificial-intelligence)
+
+### 🌐 OECD AI Tools
+
+@resourceLink(OECD AI Policy Observatory, https://oecd.ai/en/catalogue/overview)
+
+---
+
+**🎉 Thank you for participating!**
+
+> 🚀 *Ready to shape the future of AI-enhanced education?*
