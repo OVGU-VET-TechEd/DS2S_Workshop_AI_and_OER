@@ -155,6 +155,7 @@ Digital Skills to Succeed in Asia (DS2S) Project | Commissioned by BMZ
 ### 🎯 AI Excellence Examples
 
 ✅ AI excels in specific tasks:
+
 - 🏥 Spotting cancer in medical imaging
 - 🌾 Assessing crop quality in agriculture
 - 🔧 Quality control in welding processes
