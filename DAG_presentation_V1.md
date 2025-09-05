@@ -335,7 +335,7 @@ Enable exploration of multiple reasoning branches simultaneously for comprehensi
 
 ### 📝 Template Resources
 
-🔗 **Starting Template:** [Self-Learning Template](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Self_Learning_Nugget_Outlinefile_V6.md)
+🔗 **Starting Template:** [Self-Learning Template](https://raw.githubusercontent.com/OVGU-VET-TechEd/DS2S_Workshop_AI_and_OER/refs/heads/main/Megaprompt_outline_Example_DS2S.md)
 
 🔗 **Mega-Prompt Example:** [Advanced Prompting Guide](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/Prompt_Feedback_V2.md)
 
