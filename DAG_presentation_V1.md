@@ -273,7 +273,7 @@ Digital Skills to Succeed in Asia (DS2S) Project | Commissioned by BMZ
 
 ### 🎨 Presentations and Creative Tools
 
-@aiDemo(Grammar and writing enhancement, Grammarly, https://grammarly.com)
+@aiDemo(Slide Presentation, Gamma App, https://gamma.app)
 
 @aiDemo(Visual presentation creation with AI, Napkin AI, https://napkin.ai)
 
