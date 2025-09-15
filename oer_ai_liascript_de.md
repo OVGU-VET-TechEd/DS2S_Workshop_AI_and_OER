@@ -115,18 +115,14 @@ Otto-von-Guericke-Universität Magdeburg
 </text>
 <!-- Event Info -->
 <text x='400' y='300' font-family='Segoe UI, Arial, sans-serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#2196f3'>
-Workshop Hochschullehre: 40 Minuten
+Workshop Hochschullehre: 13:30 - 15 Uhr CEST
 </text>
 <text x='400' y='320' font-family='Segoe UI, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#666'>
 Praktische Anwendungen von KI in der Lehrmaterialerstellung
 </text>
 <!-- Date -->
 <text x='400' y='345' font-family='Segoe UI, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#666'>
-September 2025
-</text>
-<!-- Project Attribution -->
-<text x='400' y='375' font-family='Segoe UI, Arial, sans-serif' font-size='11' text-anchor='middle' fill='#999'>
-Digital Skills to Succeed in Asia (DS2S) Projekt | Gefördert durch BMZ
+16.September 2025
 </text>
 </svg>
 
